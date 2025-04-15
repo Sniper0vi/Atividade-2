@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="multi de 5"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:38:58 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQxOzIwMjUtMDQtMDg7IjAxOjM1OjQxICI7MjYxOA=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQxOzIwMjUtMDQtMDg7IjAxOjM4OjU4ICI7MTsyNzM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Me informe algum numero inteiro, qualquer um que voce quiser&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="(numero % 5) = 0">
+                <then>
+                    <output expression="&quot;O seu numero &#233; multiplo de 5, que legal&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O seu numero nao foi importante para a minha pesquisa, tente usar algum numero que termina com 5 ou 0&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
